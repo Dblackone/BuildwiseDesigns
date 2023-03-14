@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Designs by [Architect Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>[Architect Name]</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <h2>[Architect Name]</h2>
+                <h3>Architectural Designs</h3>
+            </div>
+            <img src="hero-image.jpg" alt="[Architect Name]'s work" class="hero-image">
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="gallery">
+                <a href="project1.jpg" class="gallery-item"><img src="project1-thumbnail.jpg" alt="Project 1"></a>
+                <a href="project2.jpg" class="gallery-item"><img src="project2-thumbnail.jpg" alt="Project 2"></a>
+                <a href="project3.jpg" class="gallery-item"><img src="project3-thumbnail.jpg" alt="Project 3"></a>
+                <a href="project4.jpg" class="gallery-item"><img src="project4-thumbnail.jpg" alt="Project 4"></a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>[Architect Name] is a young architect with a passion for innovative design and sustainable architecture. With [number] years of experience in the industry, [he/she] has worked on a wide range of projects, from residential homes to large-scale commercial developments. [He/She] is committed to creating designs that are both aesthetically pleasing and functional, and is always looking for new ways to push the boundaries of architecture.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="submit.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; [Architect Name] [current year]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
